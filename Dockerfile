@@ -14,6 +14,7 @@ RUN apk add --no-cache -q \
     curl \
     perl \
     jq \
+    git \
     && apk add --upgrade curl
 
 ADD entrypoint.sh /entrypoint.sh
